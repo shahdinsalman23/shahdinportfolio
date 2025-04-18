@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Portfolio',
     link: 'https://github.com/shahdinsalman23',
-    media: '/images/projects/portfolios.png',
+    media: '/images/projects/portfolio.png',
     category: 'Development',
   },
   {
