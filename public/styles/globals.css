@@ -94,8 +94,16 @@ body {
       hsla(240, 2%, 11%, 0) 100%
     ),
     hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(to bottom right, #3d7e81, rgb(61 126 129) 50%);
-  --bg-gradient-yellow-2: linear-gradient(135deg, #3d7e81a6, rgba(255, 187, 92, 0) 59.86%), #202022,
+  --bg-gradient-yellow-1: linear-gradient(
+    to bottom right,
+    hsl(45, 100%, 71%) 0%,
+    hsla(36, 100%, 69%, 0) 50%
+  );
+  --bg-gradient-yellow-2: linear-gradient(
+      135deg,
+      hsla(45, 100%, 71%, 0.251) 0%,
+      hsla(35, 100%, 68%, 0) 59.86%
+    ),
     hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right,
@@ -1383,23 +1391,11 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 450px screen
  */
 
-
- @media screen and (max-width: 600px) {
-    .avatar-box img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      object-position: 0px -10px;
-      border-radius: 20px;
-  }
- }
-
 @media (min-width: 450px) {
   /**
    * client
    */
 
-  
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
@@ -1497,9 +1493,6 @@ textarea.form-input::-webkit-resizer {
 
   .avatar-box img {
     width: 120px;
-    height: 130px;
-    object-fit: cover;
-    border-radius: 20px;
   }
 
   .info-content .name {
