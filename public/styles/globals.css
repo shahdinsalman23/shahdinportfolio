@@ -1383,18 +1383,23 @@ textarea.form-input::-webkit-resizer {
  * responsive larger than 450px screen
  */
 
+
+ @media screen and (max-width: 600px) {
+    .avatar-box img {
+      width: 120px;
+      height: 120px;
+      object-fit: cover;
+      object-position: 0px -10px;
+      border-radius: 20px;
+  }
+ }
+
 @media (min-width: 450px) {
   /**
    * client
    */
 
-   .avatar-box img {
-    width: 120px;
-    height: 120px;
-    object-fit: cover;
-    object-position: 0px -10px;
-    border-radius: 20px;
-}
+  
   .clients-item {
     min-width: calc(33.33% - 10px);
   }
