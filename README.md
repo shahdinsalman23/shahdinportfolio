@@ -1,4 +1,4 @@
-<div align="center">
+<!-- <div align="center">
   <img alt="Logo" src="https://raw.githubusercontent.com/spectr-e/portfolio/main/app/favicon.ico" width="100" />
 </div>
 <h1 align="center">
@@ -98,4 +98,4 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [jo
 
    ```sh
    npm run dev
-   ```
+   ``` -->
