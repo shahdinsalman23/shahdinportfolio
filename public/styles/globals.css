@@ -1393,11 +1393,11 @@ textarea.form-input::-webkit-resizer {
 
  @media screen and (max-width: 600px) {
     .avatar-box img {
-      width: 120px;
-      height: 120px;
-      object-fit: cover;
-      object-position: 0px -10px;
-      border-radius: 20px;
+      width: 120px !important;
+      height: 120px !important;
+      object-fit: cover !important;
+      object-position: 0px -10px !important;
+      border-radius: 20px !important;
     }
   }
 
