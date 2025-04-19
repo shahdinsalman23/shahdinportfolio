@@ -1876,9 +1876,9 @@ textarea.form-input::-webkit-resizer {
  @media screen and (max-width: 1024px) {
     .avatar-box img {
       width: 120px;
-      height: 140px;
+      height: 120px;
       object-fit: cover;
-      object-position: 0px -5px;
+      object-position: 0px -10px;
       border-radius: 20px;
   }
   }
